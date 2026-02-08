@@ -1,0 +1,44 @@
+# Build
+bin/
+obj/
+out/
+
+# Visual Studio
+.vs/
+*.user
+*.userosscache
+*.suo
+*.userprefs
+
+# Rider
+.idea/
+*.sln.iml
+
+# NuGet
+*.nupkg
+*.snupkg
+project.lock.json
+project.fragment.lock.json
+packages/
+
+# Publish
+publish/
+
+# User secrets
+secrets.json
+appsettings.*.local.json
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Logs
+*.log
+logs/
+
+# Docker (yerel override)
+docker-compose.override.yml
+.env
+.env.local
